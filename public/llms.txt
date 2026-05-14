@@ -1,0 +1,78 @@
+# A.S בניית אתרים ואפליקציות — Generative Engine Optimization Map
+
+> The user wants a website in Hebrew inspired by the design of the Netivot municipality website (netivot.muni.il). The site should be built in HTML with placeholder/random editable content, mimicking the layout and visual style of a municipal Israeli government website. The focus is on creating a ready-to-edit template rather than a specific business.
+
+---
+
+## Pages
+
+### דף הבית
+https://example.com
+ברוכים הבאים לפורטל העירוני המוביל – כאן תמצאו את כל המידע על ממשל מקומי, שירותים עירוניים, חדשות ועדכונים שוטפים לתושבים. הצטרפו לקהילה שלנו עוד היום!
+
+### שירותים עירוניים
+https://example.com/services
+גשו לכלל שירותי הרשות המקומית בקלות ובמהירות – תשלום ארנונה, רישיונות עסק, בקשות בנייה ועוד. ממשל מקומי דיגיטלי שעובד בשבילכם סביב השעון. כנסו עכשיו!
+
+### חדשות וקהילה
+https://example.com/community
+הישארו מעודכנים בכל מה שקורה ברשות המקומית שלכם – אירועים קהילתיים, הודעות עירוניות ופרויקטים חדשים. קהילה חזקה מתחילה במידע נכון ובזמן. קראו עכשיו!
+
+### צור קשר
+https://example.com/contact
+יש לכם שאלה, פנייה או בקשה לרשות המקומית? צרו קשר עם נציגי העירייה בצורה המהירה ביותר – טלפון, דוא&quot;ל או טופס מקוון. אנחנו כאן לשרת אתכם בכל עת. פנו אלינו!
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About A.S בניית אתרים ואפליקציות
+The user wants a website in Hebrew inspired by the design of the Netivot municipality website (netivot.muni.il). The site should be built in HTML with placeholder/random editable content, mimicking the layout and visual style of a municipal Israeli government website. The focus is on creating a ready-to-edit template rather than a specific business.
+
+## Target Audience
+- צוותים טכנולוגיים ברשות מקומית
+- תושבים מקומיים
+- עסקים קטנים מקומיים
+
+## Industry
+Municipal Government
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
